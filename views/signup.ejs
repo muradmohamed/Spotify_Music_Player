@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="sign-up-container">
+
+    <a href="/home"><i id = "icon" class="fa fa-spotify spoti" aria-hidden="true"></i> Spotify</a>
+    <h4>Sign up for free to start listening.</h4>
+      <h6>Sign up with your email address</h6>
+      <form class="" action="/register" method="POST">
+      <label for="email">What's your email?</label><br>
+      <input type="email" type="email" name="username" value="" placeholder ="Enter your email."><br>
+      <label for="">Confirm your email</label><br>
+      <input type="email" name="" value="" placeholder ="Enter your email again."><br>
+      <label for="">Create a password</label><br>
+      <input type="password" name="password" value="" placeholder ="Create a password."><br>
+      <label for="">What should we call you?</label><br>
+      <input type="text" name="" value="" placeholder ="Enter a profile name."><br>
+      This appeares on your profile.
+      <div class="date-container">
+        What is your Date of Birth? <br>
+        <label for="">Month ,Year</label>
+        <label id="date-label" for="">Date</label><br>
+        <input class="sign-up-inline-block" type="month" name="" value=""> &nbsp &nbsp&nbsp&nbsp &nbsp
+        <input class="sign-up-inline-block" type="number" name="" value="">
+      </div>
+      </div>
+
+      <div class="sign-up-container-two">
+        <p>What's your gender?</p>
+        <input type="radio" name="gender" value=""> <span> Male</span>
+        <input type="radio" name="gender" value=""> <span>Female</span>
+        <input type="radio" name="gender" value=""> <span>Other</span><br>
+        <label for="">
+        <input type="checkbox" name="" value=""><span id="checkbox-signup">Share my registration data with Spotify's content providers for marketing purposes.</span></label>
+        <div class="">
+        <p>By clicking on Sign up, you agree to Spotify's <a href="#">Terms and Conditions of Use.</a></p>
+        <p>To learn more about how Spotify collects, uses, shares and protects your personal data please read Spotify's <a href="#"> Privacy Policy.</a></p>
+        </div><br>
+        <button class="btn btn-success" type="submit" name="button">SIGN UP<br></button>
+      </form>
+        <h5>Have an account? <a href="#">Log In</a> </h5>
+      </div>
+  </body>
+</html>

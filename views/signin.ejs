@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="signin-page-container" >
+    <a href="/home"><i id = "icon" class="fa fa-spotify spoti" aria-hidden="true"></i> Spotify</a>
+    <hr>
+    <p class="signin-page-starting">To continue,lon in to spotify.</p>
+    <form action="/login" method="POST">
+    <a href="/auth/google">Log in with facecbook</a><br>
+    <BUtton class=" sign-in-button btn btn-dark">CONTINUE WITH APPLE</BUtton><br>
+    <BUTTon class=" sign-in-button btn btn-light">CONTUNIE WITH PHONE NUMBER</BUTTon>
+    <h6> <span>OR</span></h6>
+    <input class="signin-input" type="text" placeholder="Email address or username" name = "username"><br>
+    <input class="signin-input" type="password" placeholder="Password" name = "password"><br>
+    <input class="signin-checkbox" type="checkbox">Remember me
+    <button class="signin-ligin-btn btn btn-success" type="submit">LOG IN</button>
+    </form>
+    <p class="signin-forgot-password"><a href="">Forgot your password</a></p>
+    <hr>
+    <p>Don't have an account?</p>
+    <button  onclick="location.href = '/signup';" class="signin-signup-btn sign-in-button btn btn-light">SIGN UP FOR SPOTIFY</button>
+    <hr>    
+    <p class="signin-tc">If you click "Log in with Facebook" and are not a Spotify user, you will be registered and you agree to Spotify's <a href="">Terms & Conditions</a> and <a href="">Privacy Policy.</a></p>
+</div>
+</body>
+</html>
+
+8126261573 
